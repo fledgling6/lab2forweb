@@ -1,0 +1,137 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+
+@font-face {
+   font-family: 'CAC Champagne';
+   src: url('case4-great-lakescape-lodge-data-file/cac_champagne.ttf');
+}
+
+@font-face {
+   font-family: 'Dobkin';
+   src: url('case4-great-lakescape-lodge-data-file/DobkinPlain.ttf');
+}
+
+body {
+   background-color: #cbcc91;
+}
+
+.header {
+   background-color: #714c75;
+}
+
+.header ul li a {
+   display: inline;
+   width: auto;
+   height: 38px;
+   line-height: 38px;
+   text-decoration: none;
+   color: #fff;
+   margin: 0 27px;
+}
+
+#leftcol {
+   background-color: #1b1c15;
+}
+
+.Welcome {
+   color: #e4eff0;
+   display: inline;
+   font-family: "CAC Champagne";
+   font-size: 70px;
+   font-weight: 400;
+   padding: 13px 6px;
+
+}
+
+#leftcol p {
+   color: #e4eff0;
+   padding: 11px 18px;
+
+}
+
+#leftside {
+   background-color: #d9a591;
+}
+
+#leftside h1 {
+   display: inline;
+   padding: 20px 118px;
+   color: #e4eff0;
+}
+
+#leftside ul li {
+   font-size: 13px;
+   color: #e4eff0;
+   padding-top: 20px;
+   padding-left: 6px;
+   padding-right: 26px;
+}
+
+#leftside ul li a {
+
+   color: #e9b7bb;
+}
+
+#rightside {
+   background-color: #cdbc7a;
+   color: #fff;
+}
+
+#rightside h1 {
+   display: inline;
+   padding: 0px 60px;
+}
+
+#rightside p {
+   padding: 0px 15px;
+}
+
+#rightcol {
+   background-color: #522f58;
+}
+
+#rightcol nav h2 {
+   font-family: "CAC Champagne";
+   font-size: 40px;
+   padding: 0 20px;
+   color: #fff;
+}
+
+#rightcol nav ul li a {
+   text-decoration: none;
+   color: #705973;
+}
+
+#rightcol nav ul li {
+   display: block;
+   padding: 0 15px;
+}
+
+.greet {
+   padding-top: 70px;
+   color: #b179ca;
+   font-size: 20px;
+}
+
+.greet strong {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 40px;
+}
+
+.ending {
+   background-color: #4c464d;
+   color: #efebe7;
+   height: 28px;
+   line-height: 28px;
+   text-align: center;
+}
